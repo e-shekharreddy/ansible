@@ -1,0 +1,38 @@
+<!-- Student Object -->
+<STUDENTS-details>
+    <student> 
+        <FirstName>vardhan</FirstName>
+        <DOB>2021-06-29</DOB>
+        <Email>kanna143as@gmail.com</Email>
+        <ADDRESS>
+            <PERMADDRESS>
+                <FlatNo>1-42</FlatNo>
+                <Street>shergudam</Street>
+                <CITY>Narayan</CITY>
+            </PERMADDRESS>
+            <CURTADDRESS>
+                <FlatNo>1-42</FlatNo>
+                <Street>shergudam</Street>
+                <CITY>Narayan</CITY>
+            </CURTADDRESSADDRESS>
+        </ADDRESS>
+    </student>
+
+    <student> 
+        <FirstName>thadhiya</FirstName>
+        <DOB>2021-06-29</DOB>
+        <Email>kanna143as@gmail.com</Email>
+        <ADDRESS>
+            <PERMADDRESS>
+                <FlatNo>1-42</FlatNo>
+                <Street>shergudam</Street>
+                <CITY>Narayan</CITY>
+            </PERMADDRESS>
+            <CURTADDRESS>
+                <FlatNo>1-42</FlatNo>
+                <Street>shergudam</Street>
+                <CITY>Narayan</CITY>
+            </CURTADDRESSADDRESS>
+        </ADDRESS>
+    </student>
+</STUDENTS-details>

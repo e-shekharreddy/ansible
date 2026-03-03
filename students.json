@@ -1,0 +1,43 @@
+{
+    "students": [
+        {
+
+        "firstName": "vardhan",
+        "DOB": "2023-3-01",
+        "address": [
+            {
+                "type": "perm",
+                "flatNumber": 212,
+                "city": "Hyderbad"
+            },
+            {
+
+                "type": "curt",
+                "flatNumber": 212,
+                "city": "Hyderbad"
+
+            }
+        ],
+        "skills": ["java", "DevOps", "Python"]
+        },
+        {
+        "firstName": "thadiya",
+        "DOB": "2023-3-01",
+        "address": [
+            {
+                "type": "perm",
+                "flatNumber": 212,
+                "city": "Hyderbad"
+            },
+            {
+
+                "type": "curt",
+                "flatNumber": 212,
+                "city": "Hyderbad"
+
+            }
+        ],
+        "skills": ["java", "DevOps", "Python"]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+- name: "vardhan"
+  DOB: "2023-01-02"
+  mobilenumber: 5461261
+  addresses:
+  - flatNumber: 255
+    street: "chengi"
+    city: "hyderabad"
+    type: "cnrt"
+
+  - flatNumber: 255
+    street: "chengi"
+    city: "hyderabad"
+    type: "perm"
+
+- name: "thadiya"
+  DOB: "2023-01-02"
+  mobilenumber: 5461261
+  addresses:
+  - flatNumber: 255
+    street: "chengi"
+    city: "hyderabad"
+    type: "cnrt"
+
+  - flatNumber: 255
+    street: "chengi"
+    city: "hyderabad"
+    type: "perm"
+
