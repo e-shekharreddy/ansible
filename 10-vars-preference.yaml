@@ -2,6 +2,17 @@
   hosts: local
   connection: local
   vars:
-    NAME: "ansible from PLAY"
+    NAME: "ansible from FILE"
   vars_files:
     course.yaml
+  vars_prompt:
+  - name: NAME
+    prompt: "enter your NAME"
+    private: no
+  tasks:
+  - name: print NAME
+    vars:
+      NAME: "Ansible from TASK"
+    ansible.builtin.prompt:
+      msg: "Hi {{ NAME }}"
+    
