@@ -13,6 +13,6 @@
   - name: print NAME
     vars:
       NAME: "Ansible from TASK"
-    ansible.builtin.prompt:
+    ansible.builtin.debug:
       msg: "Hi {{ NAME }}"
     
