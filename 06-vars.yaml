@@ -3,7 +3,7 @@
   connection: local
 
   vars_files:
-  - variables.yaml
+  - course.yaml
 
   tasks:
     - name: print variables

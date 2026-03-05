@@ -1,0 +1,7 @@
+- name: variables preference
+  hosts: local
+  connection: local
+  vars:
+    NAME: "ansible from PLAY"
+  vars_files:
+    course.yaml
