@@ -9,5 +9,5 @@
       state: "{{ item.state }}"
     loop: # list of map/directory
     - { name: "nginx", state: "absent" } # map/dirc
-    - { name: "msql", state: "present" }
+    - { name: "mysql", state: "present" }
     - { name: "zip", state: "absent" }
