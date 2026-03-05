@@ -1,4 +1,4 @@
-- name: demo on loops
+- name: demo on error handling
   hosts: local
   connection: local
   tasks:
@@ -6,6 +6,14 @@
     ansible.builtin.command: id roboshop
     register: user_output
 
+    ignore_errors: true
+
   - name: print output
     ansible.builtin.debug:
       msg: "{{ user_output }}"
+
+  - name: add user
+    ansible.builtin.command: useradd roboshop
+    when: user_output.rc != 0
+
+    
