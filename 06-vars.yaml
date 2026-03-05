@@ -1,8 +1,9 @@
 - name: play level variable 
   hosts: local 
   connection: local
-  vars:
-   variables.yaml
+  
+  vars_variables.yaml:
+
   tasks:
     - name: print variables
       vars: 
