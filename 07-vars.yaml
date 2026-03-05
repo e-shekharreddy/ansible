@@ -3,7 +3,7 @@
   connection: local
   vars_prompt:
   - name: "user name"
-    prompt: "enter your y=user name"
+    prompt: "enter your user name"
     private: "no"   #you can use false instead of no
   - name: "user password"
     prompt: "enter your password"
