@@ -1,4 +1,4 @@
-- name: printing gathering ansible facts
+- name: printing gathering facts ansible
   hosts: local
   connection: local
   tasks:
