@@ -1,4 +1,4 @@
-- name: demo on error handling
+- name: check idenmpotent
   hosts: local
   connection: local
   become: yes
