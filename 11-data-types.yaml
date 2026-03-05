@@ -5,7 +5,7 @@
     PROGRAM: "DevSecOps with AWS" #string
     DURATION: 143 # int/Number
     IS_LIVE: true # bool/boolean
-    DETAILS: #map/dictionarty
+    DETAILS: # map/dictionarty show the data in { ... }
       MONTHS: 4
       TRAINER: "SIVAKUMAR REDDY"
     TOPICS: # list starts with / or []
