@@ -3,7 +3,11 @@
   connection: local
   vars:
     topics: linux, shell, ansible,terraform,docker
+
     course: "DevSecOps with AWS"
+
+    myIp: "198.162.0.12"
+
     TagsMap:
       name: ansible
       project: roboshop
@@ -56,3 +60,7 @@
   - name: convert lowercase into uppercase
     ansible.builtin.debug:
       msg: "{{ course | upper }}"
+
+  - name: check ip
+    ansible.builtin.debug:
+      msg: "{{ myIp | ansible.utils.ipv4 }}"
