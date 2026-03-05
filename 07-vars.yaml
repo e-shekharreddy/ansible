@@ -12,4 +12,4 @@
   tasks:
   - name: promting
     ansible.builtin.debug:
-      msg: "print your user name: {{ }}, print your password: {{ }}"
+      msg: "print your user name: {{ user name }}, print your password: {{ password }}"
