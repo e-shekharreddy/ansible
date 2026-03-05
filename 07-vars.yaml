@@ -1,4 +1,4 @@
-- name: Print User name and password
+- name: prompt variables
   hosts: local
   connection: local
   vars_prompt:

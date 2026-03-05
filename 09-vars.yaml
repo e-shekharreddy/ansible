@@ -1,0 +1,12 @@
+- name: arguments level varaibles
+  hosts: local
+  connection: local # if we hgive this it won't expect user name passwors on command line
+  tasks:
+  - name: print variables from args 
+    ansi.builtin.debug:
+      msg: "Hi {{ NAME }}, Good Morning"
+
+      
+
+
+
