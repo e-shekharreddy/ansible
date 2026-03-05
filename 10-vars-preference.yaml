@@ -5,10 +5,10 @@
     NAME: "ansible from FILE"
   # vars_files:
   #   # course.yaml
-  vars_prompt:
-  - name: NAME
-    prompt: "enter your NAME"
-    private: no
+  # vars_prompt:
+  # - name: NAME
+  #   prompt: "enter your NAME"
+  #   private: no
   tasks:
   - name: print NAME
     # vars:
@@ -19,3 +19,4 @@
     # 1. ARGS
     # 2. TASK
     # 3. FILE
+    # 4. PROMPT
