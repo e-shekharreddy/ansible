@@ -4,4 +4,4 @@
   tasks:
   - name: ansible facts
     ansible.builtin.debug:
-      msg: "Ansible facts {{ ansible_facts | ansible.builtin.to_nice_json }}"
+      msg: "Ansible facts {{ ansible_facts | ansible.builtin.to_nice_json(indent=4) }}"
