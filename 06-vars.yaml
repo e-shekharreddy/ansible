@@ -1,10 +1,8 @@
 - name: play level variable 
-  host: local 
+  hosts: local 
   connection: local
   vars:
-    COURCE: TYPING 
-    DURATION: "30MINS daily"
-    TAINER: "WEBSITE"
+   variables.yaml
   tasks:
     - name: print variables
       vars: 
