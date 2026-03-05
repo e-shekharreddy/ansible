@@ -1,5 +1,5 @@
 - name: play level variable 
-  host: localhost
+  hosts: local
   connection: local
   vars:
     COURCE: TYPING 
