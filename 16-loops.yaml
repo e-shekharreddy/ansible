@@ -4,8 +4,9 @@
   tasks:
   - name: prints names
     ansible.builtin.debug:
-      msg: "{{ item }}"
+      msg: "Hello, {{ item }}" # item isansible reserve keyword
     loop:
       - manivardhan
       - kanna
       - thadhiya
+
