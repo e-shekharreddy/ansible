@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars_prompt:
-  - name: "user name"
+  - name: "username"
     prompt: "enter your user name"
     private: "no"   #you can use false instead of no
   - name: "user password"
@@ -12,4 +12,4 @@
   tasks:
   - name: promting
     ansible.builtin.debug:
-      msg: "print your user name: {{ user name }}, print your password: {{ password }}"
+      msg: "print your user name: {{ username }}, print your password: {{ password }}"
