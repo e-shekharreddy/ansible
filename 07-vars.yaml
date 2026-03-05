@@ -5,7 +5,7 @@
   - name: "username"
     prompt: "enter your user name"
     private: "no"   #you can use false instead of no
-  - name: "user password"
+  - name: "password"
     prompt: "enter your password"
     private: "yes" #her instead of yes you can use true also
 
